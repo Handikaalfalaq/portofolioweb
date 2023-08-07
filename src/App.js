@@ -6,6 +6,7 @@ import About from "./component/about.jsx"
 import Portofolio from "./component/portofolio.jsx"
 import Skills from "./component/skills.jsx"
 import Contact from "./component/contact.jsx"
+import Copyright from "./component/copyright.jsx"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/contact" element={<Contact/>} />
       </Routes>
       
+      <Copyright/>
       </Router>
     </div>
   );

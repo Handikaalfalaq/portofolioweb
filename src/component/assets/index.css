@@ -1,11 +1,55 @@
+/* ------------------------ about ------------------------ */
+.containerAbout {
+    justify-content: center;
+    height: 652px;
+    width: 1350px;
+    margin: 50px auto;
+}
+
+.titleAbout {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    display: flex;
+}
+
+.logoAbout{
+    margin-right: 10px;
+    color: #FFA800;
+}
+
+.titleAbout{
+    font-size: 32px;
+}
+
+.greetingAbout {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0px 10px;
+    color: white;
+}
+
+.contentAbout{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+/* ------------------------ copyright ------------------------ */
+.copyright {
+    color: #FFA800;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 /* ------------------------ home ------------------------ */
 .containerHome {
     display: flex;
     justify-content: center;
     height: 652px;
     width: 1350px;
-    margin: auto;
-    /* border: 1px solid red; */
+    margin: 50px auto;
 }
 
 .informasi{
@@ -45,25 +89,85 @@
     width: 250px;
 }
 
+.downloadCv:Hover {
+    background-color: #FFA800;
+    color: white;
+}
+
 .fotoProfile {
     margin-left: 30px;
     height: 652px;
     width: 475px;
-    border: 3px solid #FFA800;
+    border: 10px solid #FFA800;
     border-radius: 40px;
     background-size: cover;
     background-position: center;
 }
-
-/* ------------------------ navbars ------------------------ */
-.brand {
-    color: #FFA800;
-}
-
+----
+/* ------------------------ navbars -------------------- */
 .itemBrand {
     color: white;
 }
 
-.itemBrand:Hover {
+.itemNavbar {
+    color: white;
+    font-size: 20px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.itemNavbar:Hover {
     color: #FFA800;
+}
+
+/* ------------------------ portofolio -------------------- */
+.containerPortofolio {
+    justify-content: center;
+    height: 652px;
+    width: 1350px;
+    margin: 50px auto;
+}
+
+.titlePortofolio {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    display: flex;
+}
+
+.logoPortofolio{
+    margin-right: 10px;
+    color: #FFA800;
+}
+
+.titlePortofolio{
+    font-size: 32px;
+}
+
+.greetingPortofolio {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px 0px 10px;
+    color: white;
+}
+
+.containerProject{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentPortofolio{
+    height: 445px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.imageContentPortofolio {
+    width: 363px;
+    height: 282px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: black;
+    margin: auto;
 }

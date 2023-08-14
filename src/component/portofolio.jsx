@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAtom } from '@fortawesome/free-solid-svg-icons';
+// import FolderImage from './img/folderImg.jsx';
+import { dataPortofolio } from './assets/data';
 
 function Portofolio(){
     return(
@@ -15,19 +17,19 @@ function Portofolio(){
             </div>
             
             <div className='containerProject'>
+            
+                {dataPortofolio.map((project, index) => (
+                    <div className="contentPortofolio" key={index}>
+                        <div className='imageContentPortofolio' style={{backgroundImage: `url(${project.imageProject})`}}></div>
+                        <div className='contentDataPortofolio'>
+                            <div className='titleProject'>{project.titleProject}</div>
+                            {project.contentProject && (
+                                <div className='contentProject'>{project.contentProject}</div>
+                            )}
+                        </div>
+                    </div>
+                ))}
 
-                <div className="contentPortofolio">
-                    <div className='imageContentPortofolio'>image</div>
-                    <div></div>
-                </div>
-
-                <div className="contentPortofolio">
-                
-                </div>
-
-                <div className="contentPortofolio">
-                
-                </div>
             </div>
         </div>
     )

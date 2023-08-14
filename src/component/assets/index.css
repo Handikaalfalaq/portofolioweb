@@ -87,6 +87,7 @@
     text-align: center;
     font-size: 16px;
     width: 250px;
+    cursor: pointer;
 }
 
 .downloadCv:Hover {
@@ -116,14 +117,17 @@
     cursor: pointer;
 }
 
+.itemNavbar.active {
+    color: #FFA800;
+}
+
 .itemNavbar:Hover {
     color: #FFA800;
 }
 
 /* ------------------------ portofolio -------------------- */
 .containerPortofolio {
-    justify-content: center;
-    height: 652px;
+    height: auto;
     width: 1350px;
     margin: 50px auto;
 }
@@ -153,8 +157,10 @@
 
 .containerProject{
     margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-gap: 50px;
 }
 
 .contentPortofolio{
@@ -169,5 +175,33 @@
     height: 282px;
     border-radius: 20px 20px 0px 0px;
     background-color: black;
-    margin: auto;
+    margin: 17px auto 0px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #FFA800;
+}
+
+.contentDataPortofolio {
+    background-color: #FFA800;
+    border-radius:  0px 0px 20px 20px;
+    margin-top: 20px;
+    height: 130px;
+    width: 400px;
+    padding: 5px 20px;
+}
+
+.titleProject {
+    color: white;
+    font-size: 20px;
+}
+
+.contentProject {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

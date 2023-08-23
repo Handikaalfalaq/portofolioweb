@@ -3,7 +3,9 @@ import dewetour from '../img/dewetour.JPG'
 import waysbook from '../img/waysbook.JPG'
 import minumanenak from '../img/minumanenak.JPG'
 import portofolio from '../img/portofolio.JPG'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp, faInstagram, faHtml5, faCss3Alt, faReact, faSquareJs, faGolang, faBootstrap } from '@fortawesome/free-brands-svg-icons';
 
 
 export const userData = {
@@ -24,22 +26,211 @@ export const dataPortofolio = [
       imageProject: dewetour,
       titleProject: 'Dewetour web',
       contentProject: 'Dewetour web a website that provides various trips to foreign and domestic tourist destinations. This website aims to make it easier for hobbyists to enjoy their holidays.',
+      linkWeb: "https://dewetour-befe.vercel.app/",
+      linkGithub: "https://github.com/Handikaalfalaq/dewetour_BEFE/tree/master",
+      dataTechnologies:[ 
+        {
+          technologies :'reactjs', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#5ED3F4",
+        },
+        {
+          technologies :'bootstrap', 
+          logoTechnologies: <FontAwesomeIcon icon={faBootstrap} size="3x" />,
+          color: "#8612F5",
+        },
+        {
+          technologies :'golang', 
+          logoTechnologies: <FontAwesomeIcon icon={faGolang} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'mysql', 
+          logoTechnologies: <FontAwesomeIcon icon={faGolang} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'vercel', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'fly.io', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#00A7D0",
+        },
+      ],
     },
     {
       imageProject: waysbook,
       titleProject: 'Waysbook web',
       contentProject: 'Waysbook web a website that provides a wide selection of ebooks to make it easier for hobbyists to find, buy and read the books they are interested in.',
+      linkWeb: "https://waysbook-web.vercel.app/",
+      linkGithub: "https://github.com/Handikaalfalaq/waysbook_web",
+      dataTechnologies:[ 
+        {
+          technologies :'reactjs', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#5ED3F4"
+        },
+        {
+          technologies :'bootstrap', 
+          logoTechnologies: <FontAwesomeIcon icon={faBootstrap} size="3x" />,
+          color: "#8612F5",
+        },
+        {
+          technologies :'golang', 
+          logoTechnologies: <FontAwesomeIcon icon={faGolang} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'mysql', 
+          logoTechnologies: <FontAwesomeIcon icon={faGolang} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'vercel', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#00A7D0",
+        },
+        {
+          technologies :'fly.io', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#00A7D0",
+        },
+      ],
     },
     {
       imageProject: minumanenak,
       titleProject: 'Minuman enak',
       contentProject: 'Create a beverage sales application that aims to make it easy for customers to shop online and make it easier for traders to manage sales.',
-      
+      linkWeb: "https://drink-shop-me.vercel.app/",
+      linkGithub: "https://github.com/Handikaalfalaq/Drink-shop-me",
+      dataTechnologies:[
+        {
+          technologies :'html', 
+          logoTechnologies: <FontAwesomeIcon icon={faHtml5} size="3x" />,
+          color: "#1E3050"
+        },
+        {
+          technologies :'css', 
+          logoTechnologies: <FontAwesomeIcon icon={faCss3Alt} size="3x" />,
+          color: "#3595CF"
+        },
+        {
+          technologies :'javascript', 
+          logoTechnologies: <FontAwesomeIcon icon={faSquareJs} size="3x" />,
+          color: "#F7D138"
+        },
+        {
+          technologies :'vercel', 
+          logoTechnologies: <FontAwesomeIcon icon={faHtml5} size="3x" />,
+          color: "#F7D138"
+        },
+      ]
     },
     {
       imageProject: portofolio,
       titleProject: 'Portofolio web',
-      contentProject: 'create a web portfolio to display my works, projects, designs, writing, or other works that reflect my skills and talents.'
+      contentProject: 'create a web portfolio to display my works, projects, designs, writing, or other works that reflect my skills and talents.',
+      linkWeb: "https://drink-shop-me.vercel.app/",
+      linkGithub: "https://github.com/Handikaalfalaq/Drink-shop-me",
+      dataTechnologies:[
+        {
+          technologies :'html', 
+          logoTechnologies: <FontAwesomeIcon icon={faHtml5} size="3x" />,
+          color: "#1E3050"
+        },
+        {
+          technologies :'css', 
+          logoTechnologies: <FontAwesomeIcon icon={faCss3Alt} size="3x" />,
+          color: "#3595CF"
+        },
+        {
+          technologies :'javascript', 
+          logoTechnologies: <FontAwesomeIcon icon={faSquareJs} size="3x" />,
+          color: "#F7D138"
+        },
+        {
+          technologies :'vercel', 
+          logoTechnologies: <FontAwesomeIcon icon={faHtml5} size="3x" />,
+          color: "#F7D138"
+        },
+      ]
     },
   ];
-  
+
+export const dataContact = [
+    {
+      logoContact: <FontAwesomeIcon icon={faWhatsapp} size="4x" />,
+      contact: 'whatsapp',
+      informasiContact: '+6282186693767',
+      linkContact: 'https://wa.me/6282186693767'
+    },
+    {
+      logoContact: <FontAwesomeIcon icon={faEnvelope} size="4x" />,
+      contact: 'email',
+      informasiContact: 'handikaalfalaq01@gmail.com',
+      linkContact: 'mailto:handikaalfalaq01@gmail.com'
+    },
+    {
+      logoContact: <FontAwesomeIcon icon={faInstagram} size="4x" />,
+      contact: 'instagram',
+      informasiContact: 'handika_alfalaq',
+      linkContact: 'https://www.instagram.com/handika_alfalaq/'
+    }
+]
+
+export const dataSkills = [
+  {
+    logoSkill: <FontAwesomeIcon icon={faHtml5} size="4x" />,
+    skill: "HTML",
+    color: "#1E3050"
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faCss3Alt} size="4x" />,
+    skill: "CSS",
+    color: "#3595CF"
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faReact}  size="4x" />,
+    skill: "ReactJs",
+    color: "#5ED3F4"
+  }, 
+  {
+    logoSkill: <FontAwesomeIcon icon={faSquareJs} size="4x" />,
+    skill: "Javascript",
+    color: "#F7D138"
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faGolang} size="4x" />,
+    skill: "Golang",
+    color: "#00A7D0",
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faBootstrap} size="4x" />,
+    skill: "Bootstrap",
+    // color: "#8612F5",
+    color: "#00A7D0",
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faHtml5} size="4x" />,
+    skill: "mySql",
+    color: "#1E3050,"
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faHtml5} size="4x" />,
+    skill: "postgresql",
+    color: "#1E3050",
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faHtml5} size="4x" />,
+    skill: "vercel",
+    color: "#1E3050",
+  },
+  {
+    logoSkill: <FontAwesomeIcon icon={faHtml5} size="4x" />,
+    skill: "fly.io",
+    color: "#1E3050",
+  },
+]

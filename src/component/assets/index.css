@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
 /* ------------------------ about ------------------------ */
 .containerAbout {
     justify-content: center;
@@ -35,12 +40,212 @@
     color: white;
 }
 
+/* ------------------------ contact ------------------------ */
+.containerContact {
+    justify-content: center;
+    height: 652px;
+    width: 1350px;
+    margin: 50px auto;
+}
+
+.titleContact {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    display: flex;
+}
+
+.logoContact{
+    margin-right: 10px;
+    color: #FFA800;
+}
+
+.titlePageContact{
+    font-size: 32px;
+}
+
+.greetingContact {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0px 30px;
+    color: white;
+}
+
+.contentContact{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+    margin: 10px 0px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-gap: 50px;
+}
+
+.contentPageContact{
+    border: 1px solid #FFA800;
+    background-color: #FFA800;
+    width: 350px;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+}
+
+.iconContentPageContact {
+    /* border: 1px solid white; */
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconContentPageContact:hover {
+    color: #FFA800;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.informasiContentPageContact {
+    width: 230px;
+    height: 100px;
+    margin: auto;
+}
+
+.titleContentPageContact {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titleInformasiContentPageContact{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.sendMassageContact {
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.sendMassageContact:hover {
+    color: #FFA800;
+    background-color: white;
+}
+
 /* ------------------------ copyright ------------------------ */
 .copyright {
     color: #FFA800;
     margin: auto;
     text-align: center;
     padding-bottom: 20px;
+}
+
+/* ------------------------ detail Portofolio ------------------------ */
+.cardContainerPortofolio {
+    height: 590px;
+    width: 1230px;
+    border-radius: 20px;
+}
+
+.topCard {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.imagePortofolio {
+    height: 280px;
+    width: 500px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.containerCardPortofolio {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    height: 280px;
+    width: 750px;
+    text-align: center;
+}
+
+.titleCardPortofolio {
+    font-size: 20px;
+    color: #FFA800;
+    margin: 15px 0px;
+    
+}
+
+.informasiCardPortofolio{
+    color: #FFA800;
+}
+
+.bodyCardPortofolio {
+    display: flex;
+    width: 100%;
+    height: 265px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #FFA800;
+}
+
+.cardTechnologies{
+    width: 700px;
+    height: auto;
+}
+
+.titleCardTechnologies {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTechnologies{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.contentTechnologies{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.itemTechnologies{
+    /* color: white; */
+    font-size: 20px;
+}
+
+.contentTechnologies.hovered .itemTechnologies, .contentTechnologies.hovered .itemLogoTechnologies{
+    color:var(--hover-color)
+}
+
+.cardQR {
+    width: 200px;
+    height: auto;
 }
 
 /* ------------------------ home ------------------------ */
@@ -54,7 +259,6 @@
 
 .informasi{
     margin: auto 30px;
-    /* border: 1px solid blue; */
 }
 
 .greeting{
@@ -104,7 +308,7 @@
     background-size: cover;
     background-position: center;
 }
-----
+
 /* ------------------------ navbars -------------------- */
 .itemBrand {
     color: white;
@@ -193,6 +397,7 @@
 .titleProject {
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .contentProject {
@@ -205,3 +410,64 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+/* ------------------------ skills -------------------- */
+.containerSkill {
+    justify-content: center;
+    height: auto;
+    width: 1350px;
+    margin: 50px auto;
+}
+
+.titleSkill {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    display: flex;
+}
+
+.logoSkill{
+    margin-right: 10px;
+    color: #FFA800;
+}
+
+.titlePageSkill{
+    font-size: 32px;
+}
+
+.greetingSkill {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0px 30px;
+    color: white;
+}
+
+.contentSkill{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+    margin: 10px 0px 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    grid-gap: 50px;
+}
+
+
+.contentPageSkill {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 210px;
+    border-radius: 20px;
+    background-color: #FFA800;
+}
+
+.contentPageSkill.hovered .iconContentPageSkill, .contentPageSkill.hovered .titleContentPageSkill {
+    color: var(--hover-color);
+  }
+  
+  

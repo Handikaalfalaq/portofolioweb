@@ -3,6 +3,13 @@ import dewetour from '../img/dewetour.JPG'
 import waysbook from '../img/waysbook.JPG'
 import minumanenak from '../img/minumanenak.JPG'
 import portofolio from '../img/portofolio.JPG'
+import dewetourGithub from '../img/dewetourGithub.png'
+import dewetourWeb from '../img/dewetourWeb.png'
+import waysbookWeb from '../img/waysbookWeb.png'
+import waysbookGithub from '../img/waysbookGithub.png'
+import meWeb from '../img/meWeb.png'
+import meGithub from '../img/meGithub.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faWhatsapp, faInstagram, faHtml5, faCss3Alt, faReact, faSquareJs, faGolang, faBootstrap } from '@fortawesome/free-brands-svg-icons';
@@ -25,6 +32,8 @@ export const dataPortofolio = [
     {
       imageProject: dewetour,
       titleProject: 'Dewetour web',
+      github : dewetourGithub,
+      web: dewetourWeb,
       contentProject: 'Dewetour web a website that provides various trips to foreign and domestic tourist destinations. This website aims to make it easier for hobbyists to enjoy their holidays.',
       linkWeb: "https://dewetour-befe.vercel.app/",
       linkGithub: "https://github.com/Handikaalfalaq/dewetour_BEFE/tree/master",
@@ -65,6 +74,8 @@ export const dataPortofolio = [
       imageProject: waysbook,
       titleProject: 'Waysbook web',
       contentProject: 'Waysbook web a website that provides a wide selection of ebooks to make it easier for hobbyists to find, buy and read the books they are interested in.',
+      github : waysbookGithub,
+      web: waysbookWeb,
       linkWeb: "https://waysbook-web.vercel.app/",
       linkGithub: "https://github.com/Handikaalfalaq/waysbook_web",
       dataTechnologies:[ 
@@ -104,6 +115,8 @@ export const dataPortofolio = [
       imageProject: minumanenak,
       titleProject: 'Minuman enak',
       contentProject: 'Create a beverage sales application that aims to make it easy for customers to shop online and make it easier for traders to manage sales.',
+      github : meGithub,
+      web: meWeb,
       linkWeb: "https://drink-shop-me.vercel.app/",
       linkGithub: "https://github.com/Handikaalfalaq/Drink-shop-me",
       dataTechnologies:[

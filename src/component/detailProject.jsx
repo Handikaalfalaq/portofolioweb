@@ -53,14 +53,14 @@ function DetailPortofolio(){
                         </div>
                     </div>
                     <div className='cardQR'>
-                        <Card.Title>Priview</Card.Title>
-                        <Card.Text>QR</Card.Text>
-                        <a href={data.linkWeb} className="href" target='_black' rel='noopener noreferrer'>link</a>
+                        <Card.Title className='titleCardTechnologies'>Priview</Card.Title>
+                        <div className='webQR' style={{ backgroundImage:`url(${data.web})` }}></div>
+                        <a href={data.linkWeb} className="linkQR" target='_black' rel='noopener noreferrer'>klik link</a>
                     </div>
                     <div className='cardQR'>
-                        <Card.Title>Github</Card.Title>
-                        <Card.Text>QR</Card.Text>
-                        <a href={data.linkGithub} className="href" target='_black' rel='noopener noreferrer'>link</a>
+                        <Card.Title className='titleCardTechnologies'>Github</Card.Title>
+                        <div className='githubQR' style={{ backgroundImage:`url(${data.github})` }}></div>
+                        <a href={data.linkGithub} className="linkQR" target='_black' rel='noopener noreferrer'>klik link</a>
                     </div>
                 </Card.Body>
             </Card>

@@ -246,6 +246,21 @@ a {
 .cardQR {
     width: 200px;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.githubQR, .webQR{
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.linkQR {
+    font-size: 25px;
+    font-weight: 500;
 }
 
 /* ------------------------ home ------------------------ */

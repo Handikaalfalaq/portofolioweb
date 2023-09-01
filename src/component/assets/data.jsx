@@ -204,9 +204,14 @@ export const dataPortofolio = [
           color: "#3595CF"
         },
         {
-          technologies :'javascript', 
-          logoTechnologies: <FontAwesomeIcon icon={faSquareJs} size="3x" />,
-          color: "#F7D138"
+          technologies :'reactjs', 
+          logoTechnologies: <FontAwesomeIcon icon={faReact} size="3x" />,
+          color: "#5ED3F4"
+        },
+        {
+          technologies :'bootstrap', 
+          logoTechnologies: <FontAwesomeIcon icon={faBootstrap} size="3x" />,
+          color: "#8612F5",
         },
         {
           technologies :'vercel', 

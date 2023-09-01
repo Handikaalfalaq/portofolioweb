@@ -9,6 +9,8 @@ import waysbookWeb from '../img/waysbookWeb.png'
 import waysbookGithub from '../img/waysbookGithub.png'
 import meWeb from '../img/meWeb.png'
 import meGithub from '../img/meGithub.png'
+import portofolioWeb from '../img/portofolioWeb.png'
+import portofolioGithub from '../img/portofolioGithub.png'
 import figmaPortofolio from '../img/figmaPortofolio.png'
 import fileCV from './cvHandikaAlFalaq.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -177,13 +179,13 @@ export const dataPortofolio = [
       link : [
         {
           title: "preview",
-          linkWeb: "https://drink-shop-me.vercel.app/",
-          imageQR : meWeb,
+          linkWeb: "https://portofoliohandikaalfalaq.vercel.app/",
+          imageQR : portofolioWeb,
         },
         {
           title: "github",
-          linkWeb: "https://github.com/Handikaalfalaq/Drink-shop-me",
-          imageQR: meGithub,
+          linkWeb: "https://github.com/Handikaalfalaq/portofolioweb",
+          imageQR: portofolioGithub,
         },
         {
           title: "figma",

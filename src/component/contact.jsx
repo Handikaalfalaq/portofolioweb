@@ -25,8 +25,7 @@ function Contact(){
                             <div className='informasiContentPageContact'>
                                 <div className='titleContentPageContact'>{contact.contact}</div>
                                 <div className='titleInformasiContentPageContact'>{contact.informasiContact}</div>
-                                <a href={contact.linkContact}className="sendMassageContact">Send Massage</a>
-
+                                <a href={contact.linkContact} className="sendMassageContact" >Send Message</a>
                             </div>
                         </div>
                     ))}

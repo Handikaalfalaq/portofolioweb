@@ -48,20 +48,18 @@ function DetailPortofolio(){
                                 </Card.Text>
                             )
                         })}
-
-                        
                         </div>
                     </div>
-                    <div className='cardQR'>
-                        <Card.Title className='titleCardTechnologies'>Priview</Card.Title>
-                        <div className='webQR' style={{ backgroundImage:`url(${data.web})` }}></div>
-                        <a href={data.linkWeb} className="linkQR" target='_black' rel='noopener noreferrer'>klik link</a>
-                    </div>
-                    <div className='cardQR'>
-                        <Card.Title className='titleCardTechnologies'>Github</Card.Title>
-                        <div className='githubQR' style={{ backgroundImage:`url(${data.github})` }}></div>
-                        <a href={data.linkGithub} className="linkQR" target='_black' rel='noopener noreferrer'>klik link</a>
-                    </div>
+
+                    {data.link.map((item, index) => (
+                        <div className='cardQR' key={index}>
+                            <Card.Title className='titleCardTechnologies'>{item.title}</Card.Title>
+                            <div className='webQR' style={{ backgroundImage: `url(${item.imageQR})` }}></div>
+                            <a href={item.linkWeb} className="linkQR" target='_blank' rel='noopener noreferrer'>Klik link</a>
+                        </div>
+                    ))}
+                    
+                    
                 </Card.Body>
             </Card>
         </div>
